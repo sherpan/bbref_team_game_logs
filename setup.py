@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="bbref_team_game_logs", # Replace with your own username
+    name="bbref_team_game_logs",
     version="1.0.0",
     author="Siddharth Mehta",
     author_email="siddharthm2350@gmail.com",
