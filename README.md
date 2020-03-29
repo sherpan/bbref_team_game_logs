@@ -1,5 +1,5 @@
 # bbref_team_game_logs
-This python package scrapes Basketball Reference to return a team's game log for an entire NBA season. 
+This python package scrapes Basketball Reference to return a team's regular season game log for an entire NBA season. 
 
 ## Installing this package 
 1. git clone https://github.com/sherpan/bbref_team_game_logs.git
@@ -23,3 +23,25 @@ This python package scrapes Basketball Reference to return a team's game log for
  'Opponent FTA' 'Opponent FT%' 'Opponent ORB' 'Opponent TRB'
  'Opponent AST' 'Opponent STL' 'Opponent BLK' 'Opponent TOV' 'Opponent PF']
 ```
+  ### get_team_game_logs_adv(team,season_end_year)
+   #### Parameters:
+   * team: abbreviation for NBA team i.e(PHO,DAL,BOS)
+   * season_end_year: end year of an NBA season (2005 for the 2004-2005 season)
+   #### Returns
+   A pandas data frame with the following columns
+   
+  ```python
+['Game #' 'Date' 'H/A' 'Opponent' 'W/L' 'Team PTS' 'Opponent PTS' 'ORtg'
+ 'DRtg' 'Pace' 'FTr' '3PAr' 'TS%' 'TRB%' 'AST%' 'STL%' 'BLK%'
+ 'Offensive eFG%' 'Offensive TOV%' 'Offensive ORB%' 'Offensive FT/FGA'
+ 'Defensive eFG%' 'Defensive TOV%' 'Defensive DRB%' 'Defensive FT/FGA']
+```
+## Example
+ ```python
+from bbref_team_game_logs import get_team_game_logs, get_team_game_logs_adv
+team = 'PHO'
+year = '2005'
+df = get_team_game_logs(team,year)
+df_adv = get_team_game_logs_adv(team,year)
+```
+The code above should retreive the data from the following pages [here](https://www.basketball-reference.com/teams/PHO/2005/gamelog/) and [here](https://www.basketball-reference.com/teams/PHO/2005/gamelog-advanced/)
