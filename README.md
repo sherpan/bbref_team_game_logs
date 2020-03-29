@@ -15,9 +15,11 @@ This python package scrapes Basketball Reference to return a team's game log for
    A pandas data frame with the following columns
    
   ```python
-import foobar
-
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+['Game #' 'Date' 'H/A' 'Opponent' 'W/L' 'Team PTS' 'Opponent PTS'
+ 'Team FG' 'Team FGA' 'Team FG%' 'Team 3P' 'Team 3PA' 'Team 3P%' 'Team FT'
+ 'Team FTA' 'Team FT%' 'Team ORB' 'Team TRB' 'Team AST' 'Team STL'
+ 'Team BLK' 'Team TOV' 'Team PF' 'Opponent FG' 'Opponent FGA'
+ 'Opponent FG%' 'Opponent 3P' 'Opponent 3PA' 'Opponent 3P%' 'Opponent FT'
+ 'Opponent FTA' 'Opponent FT%' 'Opponent ORB' 'Opponent TRB'
+ 'Opponent AST' 'Opponent STL' 'Opponent BLK' 'Opponent TOV' 'Opponent PF']
 ```
