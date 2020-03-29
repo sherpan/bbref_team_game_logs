@@ -12,44 +12,11 @@ This python package scrapes Basketball Reference to return a team's game log for
    * team: abbreviation for NBA team i.e(PHO,DAL,BOS)
    * season_end_year: end year of an NBA season (2005 for the 2004-2005 season)
    ### Returns
-   A pandas dataframe with the following columns 
-   Game #           object
-Date             object
-H/A              object
-Opponent         object
-W/L              object
-Team PTS        float64
-Opponent PTS    float64
-Team FG         float64
-Team FGA        float64
-Team FG%        float64
-Team 3P         float64
-Team 3PA        float64
-Team 3P%        float64
-Team FT         float64
-Team FTA        float64
-Team FT%        float64
-Team ORB        float64
-Team TRB        float64
-Team AST        float64
-Team STL        float64
-Team BLK        float64
-Team TOV        float64
-Team PF         float64
-Opponent FG     float64
-Opponent FGA    float64
-Opponent FG%    float64
-Opponent 3P     float64
-Opponent 3PA    float64
-Opponent 3P%    float64
-Opponent FT     float64
-Opponent FTA    float64
-Opponent FT%    float64
-Opponent ORB    float64
-Opponent TRB    float64
-Opponent AST    float64
-Opponent STL    float64
-Opponent BLK    float64
-Opponent TOV    float64
-Opponent PF     float64
-dtype: object
+   ['Game #', 'Date', 'H/A', 'Opponent', 'W/L', 'Team PTS', 'Opponent PTS',
+       'Team FG', 'Team FGA', 'Team FG%', 'Team 3P', 'Team 3PA', 'Team 3P%',
+       'Team FT', 'Team FTA', 'Team FT%', 'Team ORB', 'Team TRB', 'Team AST',
+       'Team STL', 'Team BLK', 'Team TOV', 'Team PF', 'Opponent FG',
+       'Opponent FGA', 'Opponent FG%', 'Opponent 3P', 'Opponent 3PA',
+       'Opponent 3P%', 'Opponent FT', 'Opponent FTA', 'Opponent FT%',
+       'Opponent ORB', 'Opponent TRB', 'Opponent AST', 'Opponent STL',
+       'Opponent BLK', 'Opponent TOV', 'Opponent PF']
