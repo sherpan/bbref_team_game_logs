@@ -7,7 +7,9 @@ This python package scrapes Basketball Reference to return a team's game log for
 3. pip install . 
 
 # Importing this package 
-  from bbref_team_game_logs import get_team_game_logs,get_team_game_logs_adv
+  ```python
+   from bbref_team_game_logs import get_team_game_logs,get_team_game_logs_adv
+  ```  
   
 # API
   ## get_team_game_logs(team,season_end_year)
