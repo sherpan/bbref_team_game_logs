@@ -12,7 +12,8 @@ This python package scrapes Basketball Reference to return a team's game log for
    * team: abbreviation for NBA team i.e(PHO,DAL,BOS)
    * season_end_year: end year of an NBA season (2005 for the 2004-2005 season)
    #### Returns
-   A pandas data frame with the following columns 
+   A pandas data frame with the following columns
+   
    ''' python
   ['Game #' 'Date' 'H/A' 'Opponent' 'W/L' 'Team PTS' 'Opponent PTS'
  'Team FG' 'Team FGA' 'Team FG%' 'Team 3P' 'Team 3PA' 'Team 3P%' 'Team FT'
