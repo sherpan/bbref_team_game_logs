@@ -46,7 +46,7 @@ df_adv = get_team_game_logs_adv(team,year)
 ```
 The code above should retreive the data from the following pages [here](https://www.basketball-reference.com/teams/PHO/2005/gamelog/) and [here](https://www.basketball-reference.com/teams/PHO/2005/gamelog-advanced/)
 
-## Basketball Reference Team Abbreviations + Years  
+## Basketball Reference Team Abbreviations
 These are BBREF's abbreviation for NBA teams. Use this link [here](https://www.basketball-reference.com/teams/) to figure out what years they have been active
  ```python
 ATLANTA HAWKS : ATL
