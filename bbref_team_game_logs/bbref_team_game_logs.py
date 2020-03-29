@@ -63,7 +63,7 @@ def get_team_game_logs_adv(team, season_end_year):
         df.rename(columns={
             'Unnamed: 1_level_0 G': 'Game #',
             'Unnamed: 2_level_0 Date': 'Date',
-            'Unnamed: 3_level_0 Unnamed: 3_level_1': ' H/A',
+            'Unnamed: 3_level_0 Unnamed: 3_level_1': 'H/A',
             'Unnamed: 4_level_0 Opp': 'Opponent',
             'Unnamed: 5_level_0 W/L': 'W/L',
             'Unnamed: 6_level_0 Tm': 'Team PTS',
