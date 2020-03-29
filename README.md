@@ -49,10 +49,10 @@ The code above should retreive the data from the following pages [here](https://
 ## Basketball Reference Team Abbreviations + Years  
 These are BBREF's abbreviation for NBA teams. Use this link [here](https://www.basketball-reference.com/teams/) to figure out what years they have been active
  ```python
-ATLANTA HAWKS : 
-ST. LOUIS HAWKS :
-MILWAUKEE HAWKS : 
-TRI-CITIES BLACKHAWKS : 
+ATLANTA HAWKS : ATL
+ST. LOUIS HAWKS : SLH
+MILWAUKEE HAWKS : MIL
+TRI-CITIES BLACKHAWKS : TCB
 BOSTON CELTICS : BOS 
 BROOKLYN NETS : BRK 
 NEW JERSEY NETS : NJN
