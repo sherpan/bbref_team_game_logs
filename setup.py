@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="bbref_team_game_logs",
-    version="1.0.1",
+    version="1.0.2",
     author="Siddharth Mehta",
     author_email="siddharthm2350@gmail.com",
     description="Retrieves a team's regular season game log and stats",

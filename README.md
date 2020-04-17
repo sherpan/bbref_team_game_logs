@@ -1,17 +1,17 @@
 # bbref_team_game_logs
-This python package scrapes Basketball Reference to return a team's regular season game log for an entire NBA season. 
+This python package scrapes Basketball Reference to return a team's regular season game log for an entire NBA season.
 
-## Installing this package 
-pip install bbref-team-game-logs==1.0.0 
+## Installing this package
+pip install bbref-team-game-logs
 
 ## API
   ### get_team_game_logs(team,season_end_year)
    #### Parameters:
-   * team: abbreviation for NBA team i.e(PHO,DAL,BOS)
-   * season_end_year: end year of an NBA season (2005 for the 2004-2005 season)
-   #### Returns
+   * team : abbreviation for NBA team i.e ('PHO','DAL','BOS')
+   * season_end_year: end year of an NBA season ('2005' for the 2004-2005 season)
+   #### Returns:
    A pandas data frame with the following columns
-   
+
   ```python
 ['Game #' 'Date' 'H/A' 'Opponent' 'W/L' 'Team PTS' 'Opponent PTS'
  'Team FG' 'Team FGA' 'Team FG%' 'Team 3P' 'Team 3PA' 'Team 3P%' 'Team FT'
@@ -22,12 +22,12 @@ pip install bbref-team-game-logs==1.0.0
  'Opponent AST' 'Opponent STL' 'Opponent BLK' 'Opponent TOV' 'Opponent PF']
 ```
   ### get_team_game_logs_adv(team,season_end_year)
-   #### Parameters:
-   * team: abbreviation for NBA team i.e(PHO,DAL,BOS)
-   * season_end_year: end year of an NBA season (2005 for the 2004-2005 season)
-   #### Returns
-   A pandas data frame with the following columns
-   
+    #### Parameters:
+    * team : abbreviation for NBA team i.e ('PHO','DAL','BOS')
+    * season_end_year: end year of an NBA season ('2005' for the 2004-2005 season)
+    #### Returns:
+    A pandas data frame with the following columns
+
   ```python
 ['Game #' 'Date' 'H/A' 'Opponent' 'W/L' 'Team PTS' 'Opponent PTS' 'ORtg'
  'DRtg' 'Pace' 'FTr' '3PAr' 'TS%' 'TRB%' 'AST%' 'STL%' 'BLK%'
@@ -51,11 +51,11 @@ ATLANTA HAWKS : ATL
 ST. LOUIS HAWKS : SLH
 MILWAUKEE HAWKS : MIL
 TRI-CITIES BLACKHAWKS : TCB
-BOSTON CELTICS : BOS 
-BROOKLYN NETS : BRK 
+BOSTON CELTICS : BOS
+BROOKLYN NETS : BRK
 NEW JERSEY NETS : NJN
-CHICAGO BULLS : CHI 
-CHARLOTTE HORNETS : CHO 
+CHICAGO BULLS : CHI
+CHARLOTTE HORNETS : CHO
 CHARLOTTE BOBCATS : CHA
 CLEVELAND CAVALIERS : CLE
 DALLAS MAVERICKS : DAL
