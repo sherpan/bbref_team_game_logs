@@ -5,6 +5,8 @@ This python package scrapes Basketball Reference to return a team's regular seas
 1. git clone https://github.com/sherpan/bbref_team_game_logs.git
 2. cd bbref_team_game_logs
 3. pip install . 
+ OR
+pip install bbref-team-game-logs==1.0.0 
 
 ## API
   ### get_team_game_logs(team,season_end_year)
