@@ -22,11 +22,11 @@ pip install bbref-team-game-logs
  'Opponent AST' 'Opponent STL' 'Opponent BLK' 'Opponent TOV' 'Opponent PF']
 ```
   ### get_team_game_logs_adv(team,season_end_year)
-    #### Parameters:
-    * team : abbreviation for NBA team i.e ('PHO','DAL','BOS')
-    * season_end_year: end year of an NBA season ('2005' for the 2004-2005 season)
-    #### Returns:
-    A pandas data frame with the following columns
+   #### Parameters:
+   * team : abbreviation for NBA team i.e ('PHO','DAL','BOS')
+   * season_end_year: end year of an NBA season ('2005' for the 2004-2005 season)
+   #### Returns:
+   A pandas data frame with the following columns
 
   ```python
 ['Game #' 'Date' 'H/A' 'Opponent' 'W/L' 'Team PTS' 'Opponent PTS' 'ORtg'
