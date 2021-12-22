@@ -2,8 +2,9 @@
 This python package scrapes Basketball Reference to return a team's regular season game log for an entire NBA season.
 
 ## Installing this package
+```console
 pip install bbref-team-game-logs
-
+```
 ## API
   ### get_team_game_logs(team,season_end_year)
    #### Parameters:
